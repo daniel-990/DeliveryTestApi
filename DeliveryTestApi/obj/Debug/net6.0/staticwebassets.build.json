@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "18g122ErGkvr9rIq0orxJvBnWFHTdBa4QRGfGKLVmOI=",
+  "Source": "DeliveryTestApi",
+  "BasePath": "_content/DeliveryTestApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
