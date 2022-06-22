@@ -48,15 +48,13 @@ namespace DeliveryTestApi.Controllers
                 return Ok(cliente);
             }
         }
-
         [HttpPost]
         public ActionResult Post(Cliente cliente)
         {
-           _context.Cliente.Add(cliente);
-           _context.SaveChanges();
-           return Ok();
+            _context.Cliente.Add(cliente);
+            _context.SaveChanges();
+            return Ok();
         }
-
         [HttpPut]
         public IActionResult Put(Cliente cliente)
         {
@@ -64,6 +62,19 @@ namespace DeliveryTestApi.Controllers
             _context.SaveChanges();
             return Ok();
         }
+        [HttpDelete("{id}")]
+        public ActionResult Delete(int id)
+        {
+            var ClienteA = _context.Cliente.FirstOrDefault(x => x.ClienteId == id);
+            _context.Cliente.Remove(ClienteA );
+            _context.SaveChanges();
+        }
+/*        public ActionResult<List<Cliente>> Delete(int id)
+        {
+            var cliente = _context.Cliente.FirstOrDefault(x => x.ClienteId == id);
+            _context.SaveChanges();
+            return Ok();
+        }*/
 
     }
 }
