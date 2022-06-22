@@ -22,7 +22,7 @@ namespace DeliveryTestApi.Models
         {
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseSqlServer("Server=DESKTOP-H6T08LD\\SORROPERRO;Database=DbDelivery;Integrated security=true");
+                optionsBuilder.UseSqlServer("Server=DESKTOP-J0E7DLD;Database=DbDelivery;Integrated security=true");
             }
         }
 

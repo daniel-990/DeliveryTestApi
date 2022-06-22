@@ -66,15 +66,10 @@ namespace DeliveryTestApi.Controllers
         public ActionResult Delete(int id)
         {
             var ClienteA = _context.Cliente.FirstOrDefault(x => x.ClienteId == id);
-            _context.Cliente.Remove(ClienteA );
+            _context.Cliente.Remove(ClienteA);
             _context.SaveChanges();
+            return Ok(ClienteA);
         }
-/*        public ActionResult<List<Cliente>> Delete(int id)
-        {
-            var cliente = _context.Cliente.FirstOrDefault(x => x.ClienteId == id);
-            _context.SaveChanges();
-            return Ok();
-        }*/
 
     }
 }
