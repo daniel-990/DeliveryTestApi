@@ -7,4 +7,5 @@
         public string Email { get; set; }
         public int FechaIngreso { get; set; }
     }
+
 }

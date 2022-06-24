@@ -18,17 +18,8 @@ namespace DeliveryTestApi.Controllers
         {
             _context = new DeliveryContext();
         }
-        // GET: api/<ClienteController>
+
         [HttpGet]
-        //para documentar los end points con el swagger
-        /// <summary>
-        /// Permite consultar la informacion de un cliente, nombre, correo etc..
-        /// 
-        /// </summary>
-        [ProducesResponseType((int)HttpStatusCode.OK, Type = typeof(IEnumerable<Cliente>))]
-        [ProducesResponseType((int)HttpStatusCode.Unauthorized)]
-        [ProducesResponseType((int)HttpStatusCode.BadRequest)]
-        [ProducesResponseType((int)HttpStatusCode.Forbidden)]
         public ActionResult<List<Cliente>> Get()
         {
             var listado = _context.Cliente;

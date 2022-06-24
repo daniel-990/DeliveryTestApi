@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gorde\\Documents\\proyectos cesde\\DeliveryTestApi\\DeliveryTestApi\\DeliveryTestApi.csproj": {}
+    "C:\\Users\\Daniel Arango\\source\\repos\\DeliveryTestApi\\DeliveryTestApi\\DeliveryTestApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gorde\\Documents\\proyectos cesde\\DeliveryTestApi\\DeliveryTestApi\\DeliveryTestApi.csproj": {
+    "C:\\Users\\Daniel Arango\\source\\repos\\DeliveryTestApi\\DeliveryTestApi\\DeliveryTestApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gorde\\Documents\\proyectos cesde\\DeliveryTestApi\\DeliveryTestApi\\DeliveryTestApi.csproj",
+        "projectUniqueName": "C:\\Users\\Daniel Arango\\source\\repos\\DeliveryTestApi\\DeliveryTestApi\\DeliveryTestApi.csproj",
         "projectName": "DeliveryTestApi",
-        "projectPath": "C:\\Users\\gorde\\Documents\\proyectos cesde\\DeliveryTestApi\\DeliveryTestApi\\DeliveryTestApi.csproj",
-        "packagesPath": "C:\\Users\\gorde\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gorde\\Documents\\proyectos cesde\\DeliveryTestApi\\DeliveryTestApi\\obj\\",
+        "projectPath": "C:\\Users\\Daniel Arango\\source\\repos\\DeliveryTestApi\\DeliveryTestApi\\DeliveryTestApi.csproj",
+        "packagesPath": "C:\\Users\\Daniel Arango\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Daniel Arango\\source\\repos\\DeliveryTestApi\\DeliveryTestApi\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\gorde\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Daniel Arango\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -91,7 +95,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }

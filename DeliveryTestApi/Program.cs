@@ -9,10 +9,6 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 builder.Services.AddDbContext<DeliveryContext>(opt => opt.UseInMemoryDatabase("TodoDelivery"));
 
-//builder.Services.AddSwaggerGen(c =>
-//{
-//    c.SwaggerDoc("v1", new() { Title = "TodoApi", Version = "v1" });
-//});
 
 builder.Services.AddSwaggerGen(c =>
 {
