@@ -18,11 +18,17 @@ namespace DeliveryTestApi.Controllers
         {
             _context = new DeliveryContext();
         }
+        [HttpGet]
+        public ActionResult<List<Producto>> Get()
+        {
+            var listado = _context.Productos;
+            return Ok(listado);
+        }
         // GET: api/<ProductoController>
         [HttpGet("{id}")]
         public ActionResult<List<Producto>> Get(int id)
         {
-            var producto = _context.Producto.FirstOrDefault(x => x.IdProducto == id);
+            var producto = _context.Productos.FirstOrDefault(x => x.IdProducto == id);
             if (producto is null)
             {
                 return NotFound();
